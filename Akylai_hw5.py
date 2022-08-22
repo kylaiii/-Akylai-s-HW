@@ -1,7 +1,7 @@
 import re
 class ValidCarNumber:
     number = input("Введите номер по шаблону (01KG777ABC):")
-    def __int__(self, number):
+    def __init__(self, number):
         self.number = number
 
     def is_valid(self):
